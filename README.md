@@ -1,12 +1,12 @@
-*Cardiology*
+# Cardiology
 
-**README**
+## README
 This simple app has been built using the following:
 1. Twitter's Bootstrap: http://getbootstrap.com/
 2. Mike Bostock's "d3.js": https://github.com/mbostock/d3
 3. JQuery: https://jquery.com/
 
-**INSTRUCTIONS**
+## INSTRUCTIONS
 1. Open the shell and unzip the archive
 $ cd ~
 $ unzip cardiology.zip
@@ -19,10 +19,10 @@ $ python -m SimpleHTTPServer 8080
 
 4. Launch browser and hit http://localhost:8080/.
 
-**DEMO**
+## DEMO
 Screen recording of the demo is under "docs" directory: cardiology_screen_recording.mov.
 
-**DATA**
+## DATA
 The data for the 3 demo patients (carl, carol & frank) are sourced from the corresponding "json" files:
 ```
 ├── bullet_carl_lee.json
@@ -44,7 +44,7 @@ For instance, frank's json looks like this:
 
 To learn more about this particular graph and how to modify values: http://bl.ocks.org/mbostock/4061961.
 
-**CONTENTS**
+## CONTENTS
 ```
 ├── about.html
 ├── bullet.js
