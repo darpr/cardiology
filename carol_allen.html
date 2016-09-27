@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Showcase: Cardiac Risk</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="static/bootstrap-3.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/custom/css/navbar.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <style type="text/css">
+    .badge {
+    background: radial-gradient( 5px -9px, circle, white 8%, red 26px );
+    background-color: orange;
+    
+    border-radius: 12px; /* one half of ( (border * 2) + height + padding ) */
+    /*box-shadow: 1px 1px 1px black;*/
+    color: white;
+    font: bold 14px/13px Helvetica, Verdana, Tahoma;
+    height: 18px; 
+    min-width: 18px;
+    padding: 4px 3px 0 3px;
+    text-align: center;
+    }
+    </style>
+  
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Cardiac Risk</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Patient Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <!-- <li><a href="#">Contact</a></li> -->
+              
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <!-- <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+              <li><a href="../navbar-static-top/">Static top</a></li>
+              <li><a href="../navbar-fixed-top/">Fixed top</a></li> -->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Patient: Carol Allen<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="index.html">Carl Lee</a></li>
+                  <li class="active"><a href="#">Carol Allen</a></li>
+                  <li><a href="frank_taylor.html">Frank Taylor</a></li>
+                  <!-- <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li> -->
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h2>Bloodwork Cardiology Result</h2>
+
+          <div class="row">
+            <div class="col-lg-5">
+              <h5>Patient info</h5>
+              <p><span class="text-muted" style="font-size:smaller;">NAME:</span> Carol G. Allen<br>
+              <span class="text-muted" style="font-size:smaller;">GENDER:</span> <strong>F</strong> 
+              <span class="text-muted" style="font-size:smaller;">AGE:</span> <strong>51</strong> 
+              <span class="text-muted" style="font-size:smaller;">DOB:</span> <strong>1963-12-26</strong></p>
+            </div>
+            <div class="col-lg-3">
+              <br>
+              <br>
+              <br>
+              <br>
+              <span class="text-muted" style="font-size:smaller;">................................</span>
+                <div class="badge">107</div/>
+              <span class="text-muted" style="font-size:smaller;">................................</span>    
+            </div>  
+            
+            <div class="col-lg-4">
+              <span class="text-muted" style="font-size:smaller;">Note: these results are valid for non-diabetes only!</span>
+              <div class="input-group">
+                <input type="radio" aria-label="...">&nbsp;&nbsp;Current smoker?<br>
+                <input type="radio" aria-label="...">&nbsp;&nbsp;Family history of heart attack?<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Systolic blood pressure
+              </div><!-- /input-group -->
+            </div>
+          </div>
+        </div>
+      </div>
+        
+        
+        
+      <!-- Section 1: About this test -->  
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="badge">1</div> <strong>About this test</strong>
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="text-muted" style="font-size:small;">This report evaluates your potential risk of heart disease, heart attack, and stroke.</span>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Section 2: Your Results -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="badge">2</div> <strong>Your Results</strong>
+          <IFRAME src="/bullet_carol_allen.html" width="100%" height="270px" id="iframe_bullet" marginheight="0" frameborder="0"></IFRAME>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Section 3: Your risk -->
+      <div class="row">
+        <div class="col-lg-2">
+          <div class="badge">3</div> <strong>Your risk</strong>
+        </div>
+        <div class="col-lg-10">  
+          <span class="text-muted">You show an elevated risk of cardiovascular disease</span>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-4">
+          <span class="text-muted" style="font-size:small;">
+            If you're a smoker with normal blood pressure, (130 mm/Hg) but family history of heart attack before the age of 60 (one or both parents) your risk over 10 years is:
+          </span>
+        </div>
+        <div class="col-lg-2">
+          <span class="text-muted text-center text-success" style="font-size:50px;">1%</span>
+        </div>
+        <div class="col-lg-6">
+          <span class="text-muted" style="font-size:small;">
+            <strong>Your risk would be lowered to:</strong><br>
+            <strong>1%</strong> if your blood pressure were 120mm/Hg<br>
+            <strong>0%</strong> if you didn't smoke and all levels were optimal<br>
+            <strong>1%</strong> if you quit smoking<br>
+          </span>
+        </div>                
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <span class="text-muted" style="font-size:small;">
+            Use your test results to calculate your risk of a cardiovascular event at ReynoldsRisk.org
+          </span>  
+        </div>
+      </div>    
+      <hr>
+
+      <!-- Section 4: What now? -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="badge">4</div> <strong> What now?</strong>
+        </div>
+      </div>
+      <br>
+      <div class="row">  
+        <div class="col-lg-3">
+          <span class="text-muted glyphicon glyphicon-road" aria-hidden="true"></span>
+          <span class="text-muted">
+            <strong>Diet and exercise</strong><br>
+            can improve yourcholesterol levels
+          </span>
+        </div>
+        <div class="col-lg-3">
+          <span class="text-muted glyphicon glyphicon-remove-circle" aria-hidden="true"></span>  
+          <span class="text-muted">
+            <strong>Staying smoke-free</strong><br>
+            is one of the bestways to improve yourheart disease risk
+          </span>
+        </div>
+        <div class="col-lg-3">  
+          <span class="text-muted glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+          <span class="text-muted">
+            <strong>Ask your doctor</strong><br>
+            about statins or othermedications that canlower cholesterol
+          </span>
+        </div>
+        <div class="col-lg-3">  
+          <span class="text-muted glyphicon glyphicon-tint" aria-hidden="true"></span>
+          <span class="text-muted">
+            <strong>Consider retesting</strong><br>
+            in 1 or 2 weeks toexclude a temporaryspike in blood levels
+          </span>
+        </div>
+      </div>
+      <hr>      
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="static/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

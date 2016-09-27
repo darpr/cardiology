@@ -1,0 +1,6 @@
+[
+  {"title":"CRP level test","subtitle":"mg/L","ranges":[1,3,10],"measures":[2.4],"markers":[2.4]},
+  {"title":"Total cholesterol","subtitle":"mg/dL","ranges":[200,239,320],"measures":[141],"markers":[141]},
+  {"title":"LDL cholesterol","subtitle":"bad cholesterol (mg/dL)","ranges":[159,189,300],"measures":[107],"markers":[107]},
+  {"title":"HDL cholesterol","subtitle":"good cholesteror (mg/dL)","ranges":[100,129,159],"measures":[34],"markers":[34]}
+]
