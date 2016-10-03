@@ -3,9 +3,8 @@
 ## README
 Inspired by a [Wired article](https://www.wired.com/2010/11/ff_bloodwork/3/), which showcased a redesign by David McCandless of the standard "Blood Work Cardiology Result" report. 
 
-Built this to implement David's dataviz using d3.js. 
+Built this to implement David's dataviz using d3.js. So, here goes - this simple app was built using:
 
-So, here goes - this simple app was built using:
 1. Twitter's Bootstrap: http://getbootstrap.com/.
 2. Mike Bostock's "d3.js": https://github.com/mbostock/d3.
 3. JQuery: https://jquery.com/.
